@@ -29,6 +29,8 @@ E:\Templates\Templates-1.12\Sample-Workspace-1.12\.metadata\.plugins\org.eclipse
 \Sample-Project\src\main\java
 E:\Sample-Workspace-1.18\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2824677111.index
 \Acme-Certifications\src\main\java
+E:\D05-Views\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1240051890.index
+\Acme Handy Worker\src\main\java
 E:\Sample-Workspace-1.18\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2731629865.index
 \Acme-Shout\src\main\java
 C:\Users\Administrator\Desktop\Sample-Workspace-1.18\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2648982904.index
