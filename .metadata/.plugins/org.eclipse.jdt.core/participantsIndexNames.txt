@@ -49,6 +49,8 @@ E:\D05-Views\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1344395378.in
 \Acme Handy Worker\src\main\java
 E:\Sample-Workspace-1.18\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\611602881.index
 \Sample-Project\src\main\java
+E:\D05-Views\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1875827763.index
+\Acme Handy Worker\src\main\java
 E:\Templates\Templates-1.13\Sample-Workspace-1.13\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1624640009.index
 \Sample-Project\src\main\java
 E:\Templates\Templates-1.15\Sample-Workspace-1.15\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1624640009.index
@@ -75,6 +77,8 @@ C:\Users\Administrator\Desktop\Sample-Workspace-1.18\.metadata\.plugins\org.ecli
 \Sample-Project\src\main\java
 E:\Templates\Templates-1.13\Sample-Workspace-1.13\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\769395526.index
 \Sample-Project\src\main\java
+E:\D05-Views\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3041589833.index
+\Acme Handy Worker\src\main\java
 E:\D05-Views\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3983679875.index
 \Acme Handy Worker\src\main\java
 E:\Templates\Templates-1.13\Sample-Workspace-1.13\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\611602881.index
@@ -101,6 +105,8 @@ C:\Users\Administrator\Desktop\Sample-Workspace-1.18\.metadata\.plugins\org.ecli
 \Acme-Share\src\main\java
 E:\Templates\Templates-1.15\Sample-Workspace-1.15\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3325888808.index
 \Sample-Project\src\main\java
+E:\D05-Views\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4119509955.index
+\Acme Handy Worker\src\main\java
 E:\Sample-Workspace-1.18\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1421826747.index
 \Sample-Project\src\main\java
 E:\Templates\Templates-1.12\Sample-Workspace-1.12\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3325888808.index

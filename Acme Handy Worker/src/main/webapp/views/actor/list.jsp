@@ -31,15 +31,27 @@
 	
 	<spring:message code="actor.name" var="nameHeader" />
 	<display:column property="name" title="${nameHeader}"/>
+	
+	<spring:message code="actor.middleName" var="middleNameHeader" />
+	<display:column property="middleName" title="${middleNameHeader}"  />
 
 	<spring:message code="actor.email" var="emailHeader" />
 	<display:column property="email" title="${emailHeader}"  />
 	
 	<spring:message code="actor.phone" var="phoneHeader" />
 	<display:column property="phone" title="${phoneHeader}"  />
+	
+	<spring:message code="actor.phone" var="phoneHeader" />
+	<display:column property="phone" title="${phoneHeader}"  />
 
 	<spring:message code="actor.address" var="addressHeader" />
 	<display:column property="address" title="${addressHeader}"/>
+	
+	<spring:message code="actor.photo" var="photoHeader" />
+	<display:column title="${photoHeader}">
+		<img src="${row.photo}"
+			alt="<spring:message code="image.notfound"/>" width="75" height="75" />
+	</display:column>
 	
 	
 	<spring:message code="actor.banOrUnban" var="banHeader" />
