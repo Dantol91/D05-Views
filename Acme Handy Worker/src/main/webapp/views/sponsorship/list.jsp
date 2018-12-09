@@ -17,6 +17,7 @@
 	id="row">
 
 	<!-- Action links -->
+	
 	<!-- Attributes -->
 
 	<%-- <display:column>
@@ -36,8 +37,8 @@
 	<display:column property="creditCard.brandName" title="${creditCard}"
 		sortable="false" />
 		
-		<spring:message code="sponsorship.fixUpTask" var="fixUpTask" />
-	<display:column property="fixUpTask.title" title="${fixUpTask}"
+	<spring:message code="sponsorship.fixUpTask" var="fixUpTask" />
+	<display:column property="fixUpTask.id" title="${fixUpTask}"
 		sortable="false" />
 		
 	<display:column>

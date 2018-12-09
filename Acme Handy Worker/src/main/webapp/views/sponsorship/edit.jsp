@@ -94,22 +94,6 @@
 	<form:errors cssClass="error" path="creditCard.CVV" />
 	<br/>
 	</fieldset>
-
-	<br/>
-	
-	<form:label path="trip">
-		<spring:message code="sponsorship.trip"/>:
-	</form:label>
-	<form:select path="trip">
-		<form:option value="0">----</form:option>
-		<form:options
-			items="${trips}"
-			itemLabel="title"
-			itemValue="id"
-		/>
-	</form:select>
-	<form:errors cssClass="error" path="trip"/>
-	
 	<br/>
 	
 	<input type="submit" name="save"
