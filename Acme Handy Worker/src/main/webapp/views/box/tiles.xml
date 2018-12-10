@@ -18,7 +18,7 @@
 	</definition>
 
 	<definition name="box/display" extends="master.page">
-		<put-attribute name="title" value="Display box">
+		<put-attribute name="title" value="Display box"></put-attribute>
 		<put-attribute name="body" value="/views/box/display.jsp" />
 	</definition>
 	

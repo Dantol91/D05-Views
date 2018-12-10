@@ -22,14 +22,29 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
 
+<script type="text/javascript">
+
+$(document).ready(function() {
+	 $("#formID").submit(function(){
+	var m = document.getElementById("phone").value;
+	var expreg = /^(\+\d{1,3})?\s(\(\d{3}\))?\s?\d{4,100}$/;
+	
+	if(!expreg.test(m)){
+		
+		return confirm("Are you sure you want to save this phone?");
+	}
+});
+});
+
+</script>
 
 <form:form action="actor/sponsor/edit.do" id="formID"
 	modelAttribute="sponsor">
 
 	<form:hidden path="id" />
 	<form:hidden path="version" />
-	<form:hidden path="folders" />
-	<form:hidden path="socialIdentities" />
+	<form:hidden path="boxes" />
+	<form:hidden path="socialProfiles" />
 	<form:hidden path="userAccount" />
 
 
@@ -37,29 +52,24 @@
 		<spring:message code="sponsor.name" />:
 	</form:label>
 	<br>
-	
 	<form:input path="name" />
 	<form:errors cssClass="error" path="name" />
 	<br>
 	<br>
-
+	
 	<form:label path="middleName">
 		<spring:message code="sponsor.middleName" />:
 	</form:label>
 	<br>
-	
 	<form:input path="middleName" />
 	<form:errors cssClass="error" path="middleName" />
 	<br>
 	<br>
-	
-	
+
 	<form:label path="surname">
 		<spring:message code="sponsor.surname" />:
 	</form:label>
 	<br>
-	
-	
 	<form:input path="surname" />
 	<form:errors cssClass="error" path="surname" />
 	<br>
@@ -92,13 +102,13 @@
 	<form:errors cssClass="error" path="address" />
 	<br>
 	<br>
-
-	<spring:message code="sponsor.photo"
-		var="photoHeader" />
+	
 	<display:column title="${photoHeader}">
-		<img src="${row.photoUrl}"
+		<img src="${row.photo}"
 			alt="<spring:message code="image.notfound"/>" width="75" height="75" />
 	</display:column>
+
+
 
 
 	<input type="submit" name="save"
@@ -110,42 +120,43 @@
 	<br />
 
 </form:form>
-<h2>Social Identities:</h2>
+<h2>Social Profiles:</h2>
 
 <display:table pagesize="3" class="displaytag" keepStatus="true"
 	name="socialProfiles" requestURI="actor/admin/sponsor/edit.do" id="row">
 
 	<!-- Action links -->
 
-	<security:authorize access="isAuthenticated()">
-		<display:column>
-			<a href="socialProfile/edit.do?socialProfileId=${row.id}"> <spring:message
-					code="sponsor.socialProfile.editar" />
-			</a>
-		</display:column>
-	</security:authorize>
-
 
 	<!-- Attributes -->
-
+	
 	<spring:message code="sponsor.socialProfile.nick"
 		var="nickHeader" />
 	<display:column property="nick" title="${nickHeader}" sortable="false" />
 
 	<spring:message code="sponsor.socialProfile.name"
-		var="socialNetworkNameHeader" />
+		var="nameHeader" />
 	<display:column property="name"
 		title="${nameHeader}" sortable="false" />
 
 	<spring:message code="sponsor.socialProfile.link"
-		var="profileLinkHeader" />
-	<display:column property="link" title="${linkHeader}"
-		sortable="false" />
+		var="linkHeader" />
+		
+	<display:column title="${linkHeader}"> 
+	<a href="${row.link}"><jstl:out value="${row.link}" /></a>
+	</display:column>
+	<security:authorize access="isAuthenticated()">
+		<display:column>
+			<a href="socialProfile/edit.do?socialProfileId=${row.id}"> <spring:message
+					code="sponsor.socialProfile.edit" />
+			</a>
+		</display:column>
+	</security:authorize>
 
 
 </display:table>
 
-<!-- Create SocialProfile link -->
+<!-- Create socialProfile link -->
 
 <security:authorize access="isAuthenticated()">
 	<div>
@@ -154,3 +165,13 @@
 		</a>
 	</div>
 </security:authorize>
+
+
+
+
+
+
+
+
+
+
