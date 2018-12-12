@@ -63,14 +63,6 @@ public class ApplicationServiceTest extends AbstractTest {
 		super.authenticate(null);
 
 	}
-	@Test
-	public void testDelete() {
-
-		final Application app;
-		app = this.applicationService.findOne(super.getEntityId("application1"));
-		this.applicationService.delete(app);
-
-	}
 
 	@Test
 	public void testFindAll() {

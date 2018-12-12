@@ -97,13 +97,6 @@ public class ApplicationService {
 		return result;
 	}
 
-	public void delete(final Application application) {
-		Assert.notNull(application);
-
-		this.applicationRepository.delete(application);
-
-	}
-
 	public Collection<Application> findAll() {
 
 		Collection<Application> result;

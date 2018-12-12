@@ -61,7 +61,7 @@ public class CategoryService {
 	public Category save(final Category category) {
 		Assert.notNull(category);
 
-		// Comprobamos que no hay dos categorías con misma parentCategory y
+		// Se comprueba que no hay dos categorías con la misma parentCategory y
 		// mismo nombre
 		if (category.getId() != 0) {
 
@@ -81,7 +81,7 @@ public class CategoryService {
 
 		}
 
-		//Actualizamos el padre
+		//Se actualiza el padre
 		final Collection<Category> aux = category.getParentCategory().getChildCategories();
 		aux.add(category);
 		category.getParentCategory().setChildCategories(aux);
@@ -95,10 +95,10 @@ public class CategoryService {
 		final Category parentAuxsaved = this.categoryRepository.save(category.getParentCategory());
 		category.setParentCategory(parentAuxsaved);
 
-		//Actualizamos las hijas
+		//Se actualizan las categorias hijas
 
 		final Collection<Category> childAux = new ArrayList<>();
-		//		final Category childSaved;
+		final Category childSaved;
 
 		for (final Category c : category.getChildCategories())
 			c.setParentCategory(category);
@@ -130,8 +130,8 @@ public class CategoryService {
 
 		fixUpTasks = this.fixUpTaskService.getFixUpTasksByCategory(category.getId());
 
-		// Al borrar una categoría asignamos a los viajes que tenían la categoría padre
-		// que en el peor de los casos será CATEGORY (equivalente a que el Trip no tiene categoría)
+		// Al borrar una categoría se asigna a las fixUpTask que tenían la categoría padre
+		// que en el peor de los casos será CATEGORY (equivalente a que la fixUpTask no tiene categoría)
 
 		if (!fixUpTasks.isEmpty())
 			for (final FixUpTask f : fixUpTasks)

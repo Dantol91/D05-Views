@@ -98,6 +98,7 @@ public class TutorialService {
 
 		this.tutorialRepository.delete(tutorial);
 	}
+
 	//Other business methods
 
 	public Tutorial getTutorialBySectionId(final Section section) {

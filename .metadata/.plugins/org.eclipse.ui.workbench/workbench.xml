@@ -94,7 +94,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (9 items)"/>
+<category IMemento.internal.id="Warnings (30 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="219" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -306,6 +306,42 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MessageService.java" tooltip="Acme Handy Worker/src/main/java/services/MessageService.java">
+<persistable path="/Acme Handy Worker/src/main/java/services/MessageService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SectionService.java" tooltip="Acme Handy Worker/src/main/java/services/SectionService.java">
+<persistable path="/Acme Handy Worker/src/main/java/services/SectionService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TutorialService.java" tooltip="Acme Handy Worker/src/main/java/services/TutorialService.java">
+<persistable path="/Acme Handy Worker/src/main/java/services/TutorialService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EducationRecordService.java" tooltip="Acme Handy Worker/src/main/java/services/EducationRecordService.java">
+<persistable path="/Acme Handy Worker/src/main/java/services/EducationRecordService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CurriculumService.java" tooltip="Acme Handy Worker/src/main/java/services/CurriculumService.java">
+<persistable path="/Acme Handy Worker/src/main/java/services/CurriculumService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CreditCardService.java" tooltip="Acme Handy Worker/src/main/java/services/CreditCardService.java">
+<persistable path="/Acme Handy Worker/src/main/java/services/CreditCardService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConfigurationService.java" tooltip="Acme Handy Worker/src/main/java/services/ConfigurationService.java">
+<persistable path="/Acme Handy Worker/src/main/java/services/ConfigurationService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ComplaintService.java" tooltip="Acme Handy Worker/src/main/java/services/ComplaintService.java">
+<persistable path="/Acme Handy Worker/src/main/java/services/ComplaintService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CategoryService.java" tooltip="Acme Handy Worker/src/main/java/services/CategoryService.java">
+<persistable path="/Acme Handy Worker/src/main/java/services/CategoryService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BoxService.java" tooltip="Acme Handy Worker/src/main/java/services/BoxService.java">
+<persistable path="/Acme Handy Worker/src/main/java/services/BoxService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationService.java" tooltip="Acme Handy Worker/src/main/java/services/ApplicationService.java">
+<persistable path="/Acme Handy Worker/src/main/java/services/ApplicationService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AdministratorService.java" tooltip="Acme Handy Worker/src/main/java/services/AdministratorService.java">
+<persistable path="/Acme Handy Worker/src/main/java/services/AdministratorService.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="list.jsp" tooltip="Acme Handy Worker/src/main/webapp/views/actor/list.jsp">
 <persistable path="/Acme Handy Worker/src/main/webapp/views/actor/list.jsp"/>
 </file>
@@ -314,42 +350,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="edit.jsp" tooltip="Acme Handy Worker/src/main/webapp/views/endorserRecord/edit.jsp">
 <persistable path="/Acme Handy Worker/src/main/webapp/views/endorserRecord/edit.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="edit.jsp" tooltip="Acme Handy Worker/src/main/webapp/views/educationRecord/edit.jsp">
-<persistable path="/Acme Handy Worker/src/main/webapp/views/educationRecord/edit.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="edit.jsp" tooltip="Acme Handy Worker/src/main/webapp/views/application/edit.jsp">
-<persistable path="/Acme Handy Worker/src/main/webapp/views/application/edit.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="list.jsp" tooltip="Acme Handy Worker/src/main/webapp/views/application/list.jsp">
-<persistable path="/Acme Handy Worker/src/main/webapp/views/application/list.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="action-2.jsp" tooltip="Acme-Shout/src/main/webapp/views/administrator/action-2.jsp">
-<persistable path="/Acme-Shout/src/main/webapp/views/administrator/action-2.jsp"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ThreadPoolExecutor.class" tooltip="java.util.concurrent.ThreadPoolExecutor">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Acme-Certifications/C:\/Program Files\/Java\/jdk1.7.0_13\/jre\/lib\/rt.jar&lt;java.util.concurrent(ThreadPoolExecutor.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AdministratorController.java" tooltip="Acme-Shout/src/main/java/controllers/AdministratorController.java">
-<persistable path="/Acme-Shout/src/main/java/controllers/AdministratorController.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ActorAdministratorController.java" tooltip="Acme-Certifications/src/main/java/controllers/administrator/ActorAdministratorController.java">
-<persistable path="/Acme-Certifications/src/main/java/controllers/administrator/ActorAdministratorController.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AnnouncementAdministratorController.java" tooltip="Acme-Certifications/src/main/java/controllers/administrator/AnnouncementAdministratorController.java">
-<persistable path="/Acme-Certifications/src/main/java/controllers/administrator/AnnouncementAdministratorController.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="action-2.jsp" tooltip="Acme-Shout/src/main/webapp/views/customer/action-2.jsp">
-<persistable path="/Acme-Shout/src/main/webapp/views/customer/action-2.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="action-1.jsp" tooltip="Acme-Shout/src/main/webapp/views/customer/action-1.jsp">
-<persistable path="/Acme-Shout/src/main/webapp/views/customer/action-1.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HashPassword.java" tooltip="Sample-Project/src/main/java/utilities/HashPassword.java">
-<persistable path="/Sample-Project/src/main/java/utilities/HashPassword.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="action-2.jsp" tooltip="Acme-Shout/src/main/webapp/views/profile/action-2.jsp">
-<persistable path="/Acme-Shout/src/main/webapp/views/profile/action-2.jsp"/>
 </file>
 </mruList>
 </workbench>

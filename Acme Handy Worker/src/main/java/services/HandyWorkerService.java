@@ -105,13 +105,6 @@ public class HandyWorkerService {
 		return handyWorker;
 	}
 
-	public void delete(final HandyWorker explorer) {
-		Assert.notNull(explorer);
-
-		this.handyWorkerRepository.delete(explorer);
-
-	}
-
 	public Collection<HandyWorker> findAll() {
 		return this.handyWorkerRepository.findAll();
 
