@@ -94,7 +94,6 @@ public class ApplicationServiceTest extends AbstractTest {
 		app = this.applicationService.create();
 
 		app.setStatus("ACCEPTED");
-		app.setReasonDenied("");
 		app.setComment("comment1");
 
 		app.setFixUpTask(fixUpTasks.get(0));

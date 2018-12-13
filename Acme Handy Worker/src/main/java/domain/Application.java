@@ -34,7 +34,6 @@ public class Application extends DomainEntity {
 	private String	status;
 	private double	offeredPrice;
 	private String	comment;
-	private String	reasonDenied;
 
 
 	@Past
@@ -74,14 +73,6 @@ public class Application extends DomainEntity {
 
 	public void setComment(final String comment) {
 		this.comment = comment;
-	}
-
-	public String getReasonDenied() {
-		return this.reasonDenied;
-	}
-
-	public void setReasonDenied(final String reasonDenied) {
-		this.reasonDenied = reasonDenied;
 	}
 
 

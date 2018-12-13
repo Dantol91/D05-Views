@@ -166,15 +166,6 @@ public class ApplicationService {
 		return this.applicationRepository.getHandyWorkerApplicationsByStatus(id);
 	}
 
-	//public Collection<Application> getCustomerFixUpTasksApplications(final int customerId) {
-
-	//		return this.applicationRepository.getCustomerFixUpTasksApplications(customerId);
-	//		}
-
-	//public Collection<String> getSetOfStatus(final int handyWorkerId) {
-	//return this.applicationRepository.getSetOfStatus(handyWorkerId);
-	//}
-
 	public Collection<Application> getApplicationsByStatusAndHandyWorkerId(final int handyWorkerId, final String status) {
 
 		return this.applicationRepository.getApplicationsByStatusAndHandyWorkerId(handyWorkerId, status);
@@ -187,9 +178,7 @@ public class ApplicationService {
 		c = (Customer) this.actorService.findByPrincipal();
 
 		if (a.getStatus().equals("REJECTED"))
-			Assert.isTrue(!a.getReasonDenied().isEmpty(), "message.error.cancelReason");
-
-		Assert.isTrue(c.equals(this.customerService.getCustomerFromApplicationId(a.getId())));
+			Assert.isTrue(c.equals(this.customerService.getCustomerFromApplicationId(a.getId())));
 
 		this.applicationRepository.save(a);
 
