@@ -1,0 +1,86 @@
+# messages.properties
+#
+# Copyright (C) 2018 Universidad de Sevilla
+# 
+# The use of this project is hereby constrained to the conditions of the 
+# TDG Licence, a copy of which you may download from 
+# http://www.tdg-seville.info/License.html
+
+# messages.properties
+#
+# Copyright (C) 2017 Universidad de Sevilla
+# 
+# The use of this project is hereby constrained to the conditions of the 
+# TDG Licence, a copy of which you may download from 
+# http://www.tdg-seville.info/License.html
+
+master.page.administrator					= Administrator
+master.page.administrator.actors			= Actors
+master.page.customer						= Customer
+master.page.notes							= Notes
+master.page.fixUpTask						= FixUpTask
+master.page.handyWorker						= HandyWorker
+master.page.categories						= Categories
+master.page.referee							= Referee
+master.page.referee.report.note				= Create note
+master.page.fixUpTasks						= FixUpTasks
+master.page.tutorials							= Tutorial
+master.page.sponsors						= Sponsors
+master.page.sponsorships					= Sponsorships
+master.page.sponsor.sponsorships			= Sponsorships of Sponsor
+master.page.sponsorship						= Sponsorship
+master.page.contact.create					= Create new Contact
+master.page.sponsor.sponsorship				= Create sponsorship
+master.page.audits							= Audits
+master.page.stories							= Stories
+master.page.applications					= Applications
+master.page.ranger							= Ranger
+master.page.category						= Category
+master.page.legalText						= LegalText
+master.page.values							= Values
+master.page.tripsSearch						= Trips search
+master.page.tripsList						= Trips list
+master.page.survivalClass					= Management SurvivalClass
+master.page.administrator.survivalClass		= SurvivalClass
+master.page.register						= Sign up
+master.page.createTrip						= Create a trip
+master.page.displayConfig					= Display configuration
+master.page.editConfig						= Edit configuration
+master.page.listSuspicious					= List suspicious actors
+master.page.organisedTrips					= See organised trips
+master.page.rangers							= Rangers List
+master.page.finder							= Finder
+master.page.sponsor							= Sponsor
+
+master.page.date.format						= MM/dd/yyyy
+master.page.price.format					= {0,number,#0.00}$
+master.page.price.format.display			= #0.00¤
+master.page.price.currency					= $
+master.page.price.currencyCode				= $
+master.page.locale							= en_US
+master.page.survivalClass.registered		= Survival Class Registered
+master.page.survivalClass.NotRegistered		= Survival Class Not Registered
+master.page.login 							= Log in
+master.page.profile							= Profile
+master.page.profile.my.account				= My account
+master.page.profile.logout 					= Log out
+
+master.page.messages						= Messages
+master.page.newmessage						= New message
+master.page.myfolders						= My boxes
+master.page.newfolder						= New folder
+
+master.page.curriculum						= Curriculum
+master.page.ranger.curriculum				= Show my curriculum
+
+master.page.handyWorker.registration		= Register as HandyWorker
+master.page.customer.registration			= Register as Customer
+master.page.referee.registration			= Register as Referee
+master.page.sponsor.registration			= Register as Sponsor
+master.page.registerAdmin					= Create accounts
+
+master.page.profile.edit					= Edit account
+master.page.userNotCreated					= Could not register the user
+
+message.error.duplicatedUser				= User name is already in use
+
