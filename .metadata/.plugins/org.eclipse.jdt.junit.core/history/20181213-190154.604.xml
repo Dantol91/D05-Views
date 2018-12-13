@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ComplaintServiceTest" project="Acme Handy Worker" tests="4" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="services.ComplaintServiceTest" incomplete="true">
+    <testcase name="testFindOneComplaint" classname="services.ComplaintServiceTest" incomplete="true"/>
+    <testcase name="testFindAllComplaint" classname="services.ComplaintServiceTest" incomplete="true"/>
+    <testcase name="testDeleteComplaint" classname="services.ComplaintServiceTest" incomplete="true"/>
+    <testcase name="testCreateComplaint" classname="services.ComplaintServiceTest" incomplete="true"/>
+  </testsuite>
+</testrun>

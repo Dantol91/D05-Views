@@ -1,6 +1,7 @@
 
 package services;
 
+import java.sql.Date;
 import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,8 +21,11 @@ public class ComplaintService {
 	@Autowired
 	private ComplaintRepository	complaintRepository;
 
-
 	// Supporting services 
+
+	@Autowired
+	private FixUpTaskService	fixUpTaskService;
+
 
 	// Constructors 
 
@@ -32,11 +36,13 @@ public class ComplaintService {
 
 	public Complaint create() {
 
-		final Complaint c;
+		Complaint res;
+		res = new Complaint();
+		res.setTicker(this.fixUpTaskService.getTicker());
+		res.setMoment(new Date(System.currentTimeMillis() - 1000));
 
-		c = new Complaint();
+		return res;
 
-		return c;
 	}
 
 	public Complaint save(final Complaint complaint) {
@@ -76,5 +82,15 @@ public class ComplaintService {
 
 		return this.complaintRepository.computeMinMaxAvgStddevComplaintsPerFixUpTasks();
 	}
+
+	/*
+	 * public Collection<Complaint> findComplaintsByReferee(final Referee r) {
+	 * return this.complaintRepository.findComplaintsByReferee(r.getId());
+	 * }
+	 * 
+	 * public Collection<Complaint> findComplaintsWithoutReferee() {
+	 * return this.complaintRepository.findComplaintsWithoutReferee();
+	 * }
+	 */
 
 }
